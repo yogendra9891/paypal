@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The internal clock in JavaScript starts at midnight January 1, 1970.</p>
+<p>Click the button to display the number of milliseconds since midnight, January 1, 1970.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+
+<a href="#" onclick="getLoc()">Test</button>
+<p id="test"></p>
+<script type="text/javascript">
+function myFunction() {
+    var d = new Date('2015', '04' , '03');
+    var n = d.getFullYear(); 
+	alert(n);
+    document.getElementById("demo").innerHTML = n;
+}
+
+var a = document.getElementById("test");
+function getLoc() {
+if("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else {
+        alert("geolocation is not available");
+}
+}
+
+function showPosition(position) { alert(position.coords.latitude);
+    a.innerHTML = "Latitude : " + position.coords.latitude + 
+    "<br>Longitude : " + position.coords.longitude;     
+}
+function showError(error){
+  alert('Code is : '    + error.code    + 'n' +
+                'Message is : ' + error.message + 'n');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+1. Bank account
+yogendra.singh-buyer@daffodilsw.com
+
+Account number:
+0109670
+Routing number:
+325272063
+Credit card
+
+Credit card number:
+4032034339816202
+Credit card type:
+Visa
+Expiration date:
+3/2020
+PayPal
+
+Balance:
+9999.00 USD
+
+2. Bank account
+
+abhinav.nehra@daffodilsw.com
+
+Account number:
+791105421004663
+Routing number:
+325272063
+Credit card
+
+Credit card number:
+4970614514135843
+Credit card type:
+Visa
+Expiration date:
+6/2019
+PayPal
+
+Balance:
+1000.00 USD
+
+3. 
+Email ID:
+yogendra.singh@daffodilsw.com
+Password:
+Change password
+Phone number:
+0367310156
+Account type:
+Personal
+Status:
+Verified
+Country:
+AU
+Credit card
+
+Credit card number:
+4050930662271633
+Credit card type:
+Visa
+Expiration date:
+6/2019
+PayPal
+
+Balance:
+1000.00 AUD
